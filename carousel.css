@@ -172,3 +172,11 @@ hr {
 .carousel-caption {
   z-index: 2;
 }
+
+/* #display_image {
+  width: 300px;
+  height: 169px;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+} */

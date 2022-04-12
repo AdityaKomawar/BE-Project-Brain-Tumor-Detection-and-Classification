@@ -9,7 +9,7 @@
       content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
     />
     <meta name="generator" content="Hugo 0.84.0" />
-    <title>Carousel Template · Bootstrap v5.0</title>
+    <title>B.E. Project · Brain Tumor Detection and Classification</title>
 
     <link
       rel="canonical"
@@ -245,6 +245,60 @@
           <!-- /.col-lg-4 -->
         </div>
         <!-- /.row -->
+
+        <hr class="featurette-divider" />
+        <!-- Start Image upload -->
+
+        <div class="row">
+          <section
+            class="py-5 text-center container"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            <div class="row py-lg-5">
+              <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">
+                  Check your MRI image for Tumor Detection and Classification.
+                </h1>
+                <p class="lead text-muted">
+                  Here upload an MRI image from your device.
+                </p>
+                <div class="card mx-auto my-3" style="width: 18rem">
+                  <img
+                    id="display-image"
+                    src="./images/grey-brain.png"
+                    class="card-img-top"
+                    style="background-color: white"
+                  />
+
+                  <!-- <div id="display_image"></div> -->
+                  <!-- <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div> -->
+                </div>
+                <div>
+                  <!-- <label for="formFileLg" class="form-label"
+                    >Large file input example</label
+                  > -->
+                  <input
+                    class="form-control form-control-lg"
+                    id="image_input"
+                    type="file"
+                    accept="image/png, image/jpg"
+                  />
+                </div>
+                <!-- <p>
+                <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+              </p> -->
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- end image upload -->
 
         <!-- My cards -->
         <hr class="featurette-divider" />
@@ -625,6 +679,7 @@
       </div>
     </main>
 
+    <script src="./image_upload.js"></script>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
