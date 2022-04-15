@@ -14,7 +14,8 @@ image_input.addEventListener("change", (event) => {
   // };
   // console.log(reader.readAsDataURL(file));
 
-  const url = "http://localhost:8000/api/";
+  // const url = "http://localhost:8000/api/";
+  const url = "https://whispering-earth-53299.herokuapp.com/api/";
   const data = new FormData();
   data.append("id", "3");
   data.append("name", "ImageZ");
