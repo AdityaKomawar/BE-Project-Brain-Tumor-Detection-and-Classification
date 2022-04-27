@@ -8,8 +8,8 @@ image_input.addEventListener("change", (event) => {
   // predictions.style.display = "none";
   predictions.innerHTML = "Please wait! Your image is processing...";
   display_image.src = URL.createObjectURL(event.target.files[0]);
-  // const url = "http://localhost:8000/api/";
-  const url = "https://whispering-earth-53299.herokuapp.com/api/";
+  const url = "http://localhost:8000/api/";
+  // const url = "https://whispering-earth-53299.herokuapp.com/api/";
   const data = new FormData();
   data.append("id", "3");
   data.append("name", "ImageZ");
