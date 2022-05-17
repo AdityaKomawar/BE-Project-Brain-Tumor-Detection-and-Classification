@@ -288,7 +288,7 @@
                     class="form-control form-control-lg"
                     id="image_input"
                     type="file"
-                    accept="image/png, image/jpg"
+                    accept="image/*"
                   />
                 </div>
                 <!-- <p>
@@ -303,7 +303,35 @@
                   id="predictions"
                   class="alert alert-secondary mt-5"
                   role="alert"
-                ></div>
+                >
+                  <!-- <span class="left-span"></span ><span class="right-span"></span> -->
+                </div>
+                <table class="table mt-5">
+                  <thead>
+                    <tr>
+                      <th scope="col">Classes</th>
+                      <th scope="col">Prediction</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Glioma Tumor</th>
+                      <td class="glioma">75%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Meningioma Tumor</th>
+                      <td class="meningioma">75%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">No tumor</th>
+                      <td class="no_tumor">75%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Pituitary tumor</th>
+                      <td class="pituitary">75%</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </section>
